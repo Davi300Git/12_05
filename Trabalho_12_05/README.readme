@@ -1,0 +1,124 @@
+Instruções:
+Copiar e colar o Bloco 1 para iniciar
+Altere o Tema "Cultura Ágil para o seu tema e sua prefencia " Pets, Esportes, Livros, Game..."
+Adicionar o Bloco 2 e ver o cabeçalho aparecer
+Finalizar com o Bloco 3 (rodapé)
+Cada adição de bloco mostra visualmente o progresso no navegador!
+
+Os códigos precisam de espaçamento (indentação) usando a tecla Tab ou espaços por vários motivos fundamentais:
+
+1. Legibilidade 👀
+A indentação organiza visualmente a hierarquia do código, tornando mais fácil:
+
+Identificar abertura/fechamento de tags (<div> → </div>)
+Enxergar a estrutura de elementos aninhados (pai e filhos)
+Diferenciar blocos de conteúdo (seções, listas, etc.)
+
+
+2. Manutenção do Código 🔧
+Facilita a localização de erros (ex.: tags não fechadas)
+Permite identificar rapidamente onde um bloco começa e termina
+Reduz a chance de apagar ou modificar acidentalmente partes do código
+
+
+3. Boas Práticas de Desenvolvimento 🏆
+Padrão da indústria: Todo código profissional usa indentação
+Trabalho em equipe: Outros desenvolvedores conseguem entender seu código
+Frameworks e ferramentas: Muitas IDEs (VS Code, Sublime) destacam erros se a indentação estiver incorreta
+
+
+4. Funcionamento em Algumas Linguagens ⚠️
+Em linguagens como Python, a indentação afeta diretamente a execução do código. No HTML/CSS, mesmo não sendo obrigatória, é essencial para organização.
+
+
+
+5. Como Aplicar no HTML/CSS
+Use Tab ou 2/4 espaços por nível de hierarquia
+Mantenha padrão consistente (não misture Tab com espaços)
+Resultado final: Código organizado = Mais fácil de aprender, debugar e colaborar! 🚀
+
+
+
+Bloco 1: Estrutura Básica HTML
+
+
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+ <meta charset="UTF-8">
+
+   <title>Cultura Ágil e Aplicações Web</title>
+
+  <style>
+
+  body {
+
+ font-family: Arial, sans-serif;
+
+ line-height: 1.6;
+
+ margin: 0;
+
+padding: 0;
+
+ background-color: #f4f4f9;
+
+ }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- O conteúdo será adicionado nos próximos blocos -->
+
+</body>
+
+</html>
+
+
+Tabela de Cores - https://www.henriqueguimaraes.com/tabela-de-cores-html-com-nome-rgb-e-hexadecimal/
+
+TELA 1.jpg
+
+Bloco 2: Cabeçalho e Menu
+
+<header style="background: #0056b3; color: white; padding: 2rem; text-align: center;">
+
+ <h1>Cultura Ágil e Aplicações Web</h1>
+
+  <p>Um projeto para explorar metodologias ágeis e desenvolvimento web</p>
+
+</header>
+
+<nav style="background: #333; padding: 1rem;">
+
+  <ul style="list-style: none; display: flex; justify-content: center; gap: 2rem; margin: 0; padding: 0;">
+
+  <li><a href="#agil" style="color: white; text-decoration: none;">Cultura Ágil</a></li>
+
+ <li><a href="#aplicacoes" style="color: white; text-decoration: none;">Aplicações Web</a></li>
+
+  <li><a href="#modificacoes" style="color: white; text-decoration: none;">Minhas Alterações</a></li>
+
+  </ul>
+
+</nav>
+
+TELA 2.jpg
+
+TELA 3.jpg
+
+Bloco 3: Rodapé
+
+<footer style="background: #333; color: white; text-align: center; padding: 1.5rem; margin-top: 2rem;">
+
+  <p>Projeto para disciplina de Aplicações para Internet</p>
+
+  <p>Aluno: [Seu Nome Aqui]</p>
+
+</footer>
