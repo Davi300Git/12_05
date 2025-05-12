@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Cabeçalho */
+.site-header {
+    background: #0056b3;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Menu */
+.menu-nav {
+    background: #333;
+    padding: 1rem;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Rodapé */
+.site-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
